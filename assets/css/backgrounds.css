@@ -1,0 +1,117 @@
+
+.noback{
+    background: none;
+}
+
+.hmg-back-p{
+    background-color: #59359A;
+    color: white;
+}
+
+.hmg-back-o{
+    background-color: #FD7E14;
+    color: white;
+}
+
+.hmg-back-o-1{
+    background-color: #FFF8F1;
+}
+
+.hmg-back-b{
+    background-color: black;
+    color: white;
+}
+
+.hmg-back-bl{
+    background-color: #0485AA;
+    color: white;
+}
+
+.hmg-back-w{
+    background-color: white;
+}
+
+.hmg-back-r{
+    background-color: #FE313C;
+    color: white;
+}
+
+.hmg-back-rr{
+    background-color: red;
+    color: white;
+}
+
+.hmg-back-g{
+    background-color: rgb(9, 197, 81);
+    color: white;
+}
+
+.hmg-back-pp{
+    background-color: #EE3F64;
+    color: white;
+}
+
+.hmg-hover-pp:hover{
+    background-color: #f11e4c;
+    color: white;
+}
+
+
+.hmg-fill-p{
+    fill: #59359A;
+}
+
+.hmg-fill-o{
+    fill: #FD7E14;
+}
+
+.hmg-fill-w{
+    fill: #fff;
+}
+
+.hmg-hover-p:hover{
+    background-color: #59359A;
+}
+
+.hmg-hover-o:hover{
+    background-color: #FD7E14;
+}
+
+.hmg-hover-w:hover{
+    background-color: white;
+    color: black;
+}
+
+section.deliciasBackImage{
+    background-image: url('../img/folha-fundo-02.jpg'); 
+    background-size: 100%; 
+    background-attachment: fixed; 
+    background-position: center; 
+    margin: 30px 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.deliciasBackImage *{
+    z-index: 2;
+    position: relative;
+}
+
+.deliciasBackImage .opacityDiv{
+    background-color: rgba(255, 255, 255, 0.712);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1!important;
+}
+
+div.blurBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.527);
+    filter: blur(4px);
+    z-index: 1;
+}

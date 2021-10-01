@@ -1,0 +1,28 @@
+.shadown{
+    box-shadow: 1px -1px 4px 2px rgba(139, 139, 139, 0.137);
+}
+
+.shadown-o{
+    box-shadow: 1px -1px 4px 1px #f35f0994;
+}
+
+
+button:hover{
+    box-shadow: 1px -1px 6px 2px rgba(139, 139, 139, 0.2);
+}
+
+.hover-n:hover{
+    box-shadow: none;
+}
+
+.hover-p:hover{
+    box-shadow: 1px 1px 8px 2px #58359aa9;
+}
+
+.hover-o:hover{
+    box-shadow: 1px 1px 8px 2px #f35f09a9;
+}
+
+.hover-w:hover{
+    box-shadow: 1px 1px 8px 2px #ffffffa9;
+}

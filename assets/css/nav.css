@@ -1,0 +1,180 @@
+
+nav ul li a{
+    color: black;
+    font: normal 1em josefin;
+}
+
+nav ul li a:hover{
+    color: #cccccc;
+}
+
+ul .menu{
+    display: flex;
+}
+
+nav *{
+    color: white;
+    fill: white;
+}
+
+nav.wh button.navMenuBt svg, nav.wh button.navMenuBt path{
+    color: black;
+    fill: black;
+}
+
+nav.wh button *{
+    color: rgb(207, 207, 207);
+    fill: rgb(255, 255, 255);
+}
+
+nav.wh .cart span{
+    color: white;
+}
+
+nav.wh .cart svg, nav.wh .cart path{
+    fill: #f12613;
+    color: #f12613;
+}
+
+nav.wh .navbar-brand h2{
+    color: #FD7E14;
+}
+
+nav.wh{
+    background-color: white;
+    box-shadow: 1px -1px 6px 2px rgba(139, 139, 139, 0.445);
+}
+
+nav.wh ul li a:hover{
+    color: #FD7E14;
+}
+
+.navbar-brand{
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.navbar-brand h2{
+    font: normal 1.5em lobster;
+}
+
+nav.wh .navbar-collapse li a, nav.wh .navbar-collapse li button{
+    color: black;
+    fill: black;
+}
+
+div.menuIconsDiv {
+	display: flex;	
+	padding: 20px 0;
+}
+
+.navBts button{
+    margin-left: 12px;
+}
+
+.bagItems{
+    display: none;
+}
+
+.navbar button{
+    font: normal 1em josefin;
+}
+
+@media screen and (max-width: 992px){
+
+    .navbar-collapse{
+        background-color: rgba(255, 255, 255, 0.879);
+        background-image: linear-gradient(
+        top right, #007fff, red);
+        border-radius: 5px 0 0 0;
+        align-items: center;
+    }
+
+    nav.wh .navbar-collapse{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .navbar-collapse{
+        position: fixed;
+        top: 78px;
+        right: 0;
+        width: 80%;
+        max-width: 250px;
+        height: 100%;
+        align-items: flex-start;
+        box-shadow: none;
+        z-index: 10;
+    }
+
+    .navbar-collapse li{
+        padding: 3px 20px;
+    }
+
+    .navbar-collapse li:first-child{
+        background-color: #fff2eeb4;
+        text-align: center;
+        border-radius: 5px 0 0 0;
+    }
+
+    .navbar-collapse li:first-child a{
+        font: normal 1.5em Dancing;
+        text-align: center;
+    }
+
+    .menu button{
+        font-size: 1.2em;  
+        width: 35px;
+        height: 35px; 
+        visibility:hidden;
+    }
+
+    .navbar-collapse .active{
+        background-color: #0485AA;
+        color: white;
+    }
+
+    .navbar-collapse .active a{
+        color: white;
+    }
+
+    nav.wh .navbar-collapse li.active a{
+        color: white;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    nav ul li a{
+        text-shadow: 1px 1px 1px black;
+    }
+
+    nav.wh ul li a{
+        text-shadow: none;
+    }
+
+    nav .col-4{
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    nav ul li{
+        margin: 0 2%;
+    }
+    
+    ul .menu{
+        display: none;
+    }
+
+    nav ul li a, nav .navBts a button{
+        color: white;
+    }
+
+    nav a button{
+        color: white;
+    }
+
+    div.menuIconsDiv {
+        display: none;	
+    }
+}

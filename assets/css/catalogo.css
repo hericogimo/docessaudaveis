@@ -1,0 +1,217 @@
+
+.catalogoDiv{
+    width: 100%;
+    padding: 10px;
+}
+
+.catalogoDiv button{
+    padding: 2px 20px;
+    font: normal 1em josefin;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgb(168, 163, 163);
+}
+
+.catalogoDiv button:last-child{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.catalogoDiv button svg{
+    margin: 0 10px;
+}
+
+.catalogoDiv button.active{
+    border: 2px solid steelblue;
+}
+
+.catalogoDiv button.active *{
+    color: purple;
+    fill: purple;
+}
+
+.catalogo{
+    margin: 0;
+    padding-top: 0;
+}
+
+.catalogo .element-item{
+    height: auto;
+    margin: 5px;
+    display: block;
+    height: auto;
+    position: relative;
+}
+
+.protfolio .element-item{
+    margin: 0;
+    padding: 0;
+}
+
+.catalogo .element-item .card{
+    height: auto;
+}
+
+.catalogo .photos{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+}
+
+.catalogo div.photos_column{
+    display: block;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: auto;
+    width: 100%;
+    max-width: 47%;
+    position: relative;
+}
+
+.catalogo div.photos_column .card{
+    height: auto;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.title span{
+    padding-right: 10px;
+}
+
+.imageView .modal-content{
+    padding: 0;
+    height: 100%;
+    max-height: 700px;
+    background: transparent;
+    border: none;
+}
+
+.imageView .modal-body{
+    padding: 0;
+    height: 400px;
+}
+
+.imageView .modal-header, .imageView .modal-footer{
+    border: none;
+}
+
+.imageView .modal-dialog{
+    max-width: 700px;
+}
+
+.imageView .image{
+    width: 100%;
+    height: 100%;
+}
+
+.imageView .image img, .imageView .image video{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.videoIcon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.videoIcon *{
+    color: white;
+    fill: white;
+}
+
+
+@media screen and (min-width: 992px){
+    .hideMobileFlex{
+        display: flex;
+    }
+    
+    .hideMobile{
+        display: block;
+    }
+
+    .hideDesktop{
+        display: none;
+    }
+
+    .aboutImage{
+        height: 300px;
+    }
+
+    footer{
+        height: 250px;
+    }
+
+    .deliveryRow{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .delivery{
+        height: 500px;
+    }
+
+    .paddDiv{
+        padding: 40px 80px;
+        justify-content: space-between; 
+    }  
+    
+    .aboutImage img{
+        min-width: auto;
+    }
+    
+    .catalogo div.photos_column{
+        max-width: 30%;
+    }
+
+    .catalogo div.photos_column:last-child{
+        margin-right: 0;
+        display: block;
+    }
+
+    .catalogo .photos{
+        padding: 0 15px;
+    }
+
+    .imageView .image img{
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }    
+
+    .videoIcon *{
+        font-size: 50px;
+    }
+
+}
+
+.photos_column .title{
+    padding: 10px;
+    text-align: start!important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    font: normal 1em josefin;
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-bottom: 3px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+}
+
+.photos_column .title p{
+    margin: 0;
+    color: white;
+}
+
+div.hide{
+    display: none;
+}

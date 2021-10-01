@@ -1,0 +1,4 @@
+FONTS:
+ - Titulos: Pacifico/Dancing;
+ - Itens do Menu: Delius;
+ - Conteudo: Josefin Sans;

@@ -1,0 +1,48 @@
+.border-1-s-w{
+    border: 0.1rem solid white;
+}
+
+.border-1-d-w{
+    border: 0.1rem dotted white;
+}
+
+.border-1-ds-w{
+    border: 0.1rem dashed white;
+}
+
+.border-1-s-r{
+    border: 0.1rem solid crimson;
+}
+
+.border-1-d-r{
+    border: 0.1rem dotted crimson;
+}
+
+.border-1-ds-r{
+    border: 0.1rem dashed crimson;
+}
+
+
+.border-1-s-o{
+    border: 0.1rem solid #FD7E14;
+}
+
+.border-1-d-o{
+    border: 0.1rem dotted #FD7E14;
+}
+
+.border-1-ds-o{
+    border: 0.1rem dashed #FD7E14;
+}
+
+.border-1-s-g{
+    border: 0.1rem solid rgb(9, 197, 81);
+}
+
+.border-1-d-g{
+    border: 0.1rem dotted rgb(9, 197, 81);
+}
+
+.border-1-ds-g{
+    border: 0.1rem dashed rgb(9, 197, 81);
+}

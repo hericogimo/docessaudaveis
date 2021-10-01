@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "Dancing";
+    font-size: 1em;
+    src: url("../plugins/fonts/Dancing/DancingScript-Bold.ttf");
+}
+
+@font-face{
+    font-family: "pacifico";
+    font-size: 1em;
+    src: url("../plugins/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face{
+    font-family: "josefin";
+    font-size: 1em;
+    src: url("../plugins/fonts/JosefinSans/JosefinSans-Regular.ttf");
+}
+
+@font-face{
+    font-family: "lobster";
+    font-size: 1em;
+    src: url("../plugins/fonts/Lobster/Lobster-Regular.ttf");
+}

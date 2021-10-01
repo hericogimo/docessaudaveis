@@ -1,0 +1,43 @@
+.message {
+    display: block;
+    padding: 10px;
+    border: 2px solid #555555;
+    border-left-width: 32px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.message.success {
+    background-color: white;
+    color: #1dd1a1;
+    border-color: #1dd1a1;
+}
+
+.message.info {
+    background-color: white;
+    color: #2e86de;
+    border-color: #2e86de;
+}
+
+.message.alert {
+    background-color: white;
+    color: #ff9f43;
+    border-color: #ff9f43;
+}
+
+.message.error {
+    background-color: white;
+    color: #ff0002;
+    border-color: rgb(241, 0, 0);
+}
+
+.message a {
+    font-weight: 800;
+    color: white;
+    background-color: inherit;
+}
